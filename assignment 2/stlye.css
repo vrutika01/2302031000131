@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins','sans-serif';
+}
+
+header{
+    background-color: #B5AEB1;
+    padding: 0px 10px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+ 
+.logo{
+    max-width: 100%;
+    width: 200px;
+}
+
+a{
+    padding: 0px 10px;
+    color: black;
+    text-decoration: none;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    list-style: none;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.login{
+    padding: 5px 10px;
+    border-radius: 15px;
+    border: none;
+}
+
+.main{
+    background-color: black;
+    padding: 100px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.info{
+    color: #B5AEB1;
+}
+
+.heading{
+    padding: 10px 190px 80px 0px;
+    font-size: 40px;
+    color: #B5AEB1;
+}
+
+.bgimg{
+    max-width: 100%;
+    width: 480px;
+    padding-left: 100px;
+}
+
+.camera{
+    margin: 0px 300px 0px 0px;
+    font-size: 40px;
+    background-color: #B49B8C;
+    color: black;
+    padding: 0px 80px 0px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.camicon{
+    max-width: 100%;
+    width: 50px;
+    padding: 0px 10px ;
+}
+.main {
+  
+    grid-template-columns: 2fr 2fr;
+    gap: 20px;
+    padding: 40px;
+}
+
+.images{
+    text-align: center;
+}
+
+.images h2 {
+    margin-bottom: 10px;
+    color: #c69c6d;
+    font-size: 24px;
+}
+
+.images img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+
+.footerwrap{
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    background-color: #B5AEB1;
+}
+
+.footerlogo{
+    max-width: 100%;
+    width: 120px;
+}
+
+.describe{
+    padding: 0px 0px 0px 15px;
+    text-align: justify;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+    padding: 10px 0px 15px 5px;
+}
+
+.iconimg{
+    max-width: 100%;
+    width: 20px;
+    padding: 10px 0px 15px 5px;
+}
+
+.comphead{
+    padding: 20px 0px 0px 0px;
+}
+.complist{
+    list-style-type: none;
+    padding: 10px 0px;
+}
+
+.supphead{
+    padding: 20px 0px 0px 0px;
+}
+.supplist{
+    list-style-type: none;
+    padding: 10px 0px;
+}
+
+.prohead{
+    padding: 20px 0px 0px 0px;
+}
+.prolist{
+    list-style-type: none;
+    padding: 10px 0px;
+}
+
